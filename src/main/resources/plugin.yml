@@ -1,0 +1,10 @@
+name: MirTimeTrade
+version: '1.0.0'
+main: ru.mirtime.trade.MirTimeTrade
+api-version: '1.21'
+commands:
+  trade:
+    description: Обмен предметами с игроком
+    aliases:
+      - трейд
+      - обмен
