@@ -1,10 +1,18 @@
+#    __  __ _        _____ _                
+#   |  \/  (_)_ __  |_   _(_)_ __ ___   ___ 
+#   | |\/| | | '__|   | | | | '_ ` _ \ / _ \
+#   | |  | | | |      | | | | | | | | |  __/
+#   |_|  |_|_|_|      |_| |_|_| |_| |_|\___|
+#                                           
+#   Project: Mir Time | Author: Ars3nBar
+
 name: MirTimeTrade
-version: '1.0.0'
+version: '1.1.0'
 main: ru.mirtime.trade.MirTimeTrade
 api-version: '1.21'
+softdepend:
+  - Vault
 commands:
   trade:
-    description: Обмен предметами с игроком
-    aliases:
-      - трейд
-      - обмен
+    description: Безопасный обмен предметами и монетами
+    aliases: [обмен, трейд]
